@@ -25,7 +25,7 @@
         $name = $_POST["username"];
         // echo $name;
         $_SESSION["storename"] = $name;
-        echo $_SESSION["storename"];
+        // echo $_SESSION["storename"];
     ?>
     <div class="app__container">
         <div class="app__wrapper">
