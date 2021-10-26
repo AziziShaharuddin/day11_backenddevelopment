@@ -1,0 +1,13 @@
+ErrorDocument 400 http://localhost/day11/index.php
+
+ErrorDocument 401 http://localhost/day11/index.php
+
+ErrorDocument 403 http://localhost/day11/index.php
+
+ErrorDocument 404 http://localhost/day11/index.php
+
+ErrorDocument 500 http://localhost/day11/index.php
+
+ErrorDocument 502 http://localhost/day11/index.php
+
+ErrorDocument 504 http://localhost/day11/index.php

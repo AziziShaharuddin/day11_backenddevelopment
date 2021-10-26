@@ -23,14 +23,14 @@
             <div class="app__desc app__desc_name">
                 <p class="app__desc_1">We will collect just two details about you. Let's start with your name!</p>
             </div>
-            <form action="mobileno.php" method="post">
+            <form action="./controller/mobnum.controller.php" method="post">
                 <input type="text" name ="username" class="form_app_text" placeholder="Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'">
                 <div class="form_app_checkbox_container">
                     <input type="checkbox" name="checkbox" class="form_app_checkbox" id="pdpaTnc">
                     <label for="pdpaTnc" class="form_app_lbl">I hereby acknowledge that I have read, understand and agree to the <a data-toggle="modal" data-target="#termsofuseprivacypolicy" class="pdpa_link">PDPA terms & conditions</a>.</label>
                 </div>
                 <div class="form_app_submit_container">
-                    <button type="submit" class="form_app_submit btn_blue" onclick="location.href='mobileno.html';">Next <span class="next_arrow_icon"><img src="dist/images/svg/arrow_right_white.svg" alt=""></span></button>
+                    <button type="submit" class="form_app_submit btn_blue" onclick="location.href='mobnum.controller.php';">Next <span class="next_arrow_icon"><img src="dist/images/svg/arrow_right_white.svg" alt=""></span></button>
                 </div>
             </form>
         </div>

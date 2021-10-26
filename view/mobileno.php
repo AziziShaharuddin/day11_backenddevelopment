@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="dist/css/style.css?v=1.0.2" />
     <?php
         // Start the session
-        session_start();
+        // session_start();
         ?>
 
 
@@ -22,10 +22,10 @@
 
 <body>
     <?php
-        $name = $_POST["username"];
-        // echo $name;
-        $_SESSION["storename"] = $name;
-        // echo $_SESSION["storename"];
+        // $name = $_POST["username"];
+        // // echo $name;
+        // $_SESSION["storename"] = $name;
+        // // echo $_SESSION["storename"];
     ?>
     <div class="app__container">
         <div class="app__wrapper">
@@ -34,10 +34,10 @@
             <div class="app__desc app__desc_mobileno">
                 <p class="app__desc_1">Please enter your mobile number in full, <span class="app__name_newln">so that a verification code can be successfully sent.</span></p>
             </div>
-            <form action="tacno.php" method="post">
+            <form action="tacno.controller.php" method="post">
                 <input id="phone" name="phone" type="tel">
                 <div class="form_app_submit_container">
-                    <button type="submit" class="form_app_submit btn_blue" onclick="location.href='tacno.html';">Verify <span class="next_arrow_icon"><img src="dist/images/svg/arrow_right_white.svg" alt=""></span></button>
+                    <button type="submit" class="form_app_submit btn_blue" onclick="location.href='tacno.controller.php';">Verify <span class="next_arrow_icon"><img src="dist/images/svg/arrow_right_white.svg" alt=""></span></button>
                 </div>
             </form>
         </div>
